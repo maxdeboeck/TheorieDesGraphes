@@ -1,0 +1,10 @@
+[book]
+authors = ["maximedeboeck"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Théorie des Graphes"
+
+
+[preprocessor.katex]
+after = ["links"]
