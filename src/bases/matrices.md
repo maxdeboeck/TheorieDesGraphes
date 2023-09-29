@@ -12,7 +12,6 @@ La matrice d’adjacence $ A$ est de genre $ |N|\times|N|$ :
 - $ a_{i,j}:=$  nombre d’arêtes reliant $ i$ et $ j$ si $ i \neq j$ 
 - $ a_{i,i}:=$ deux fois le nombre de boucles sur $ i$
 
-![test](../assets/plswork.png)
 
 ***Propriétés/Théorèmes :***
 - 2.1 : $ \sum_{j\in N}a_{i,j}=\sum_{j\in N}a_{j,i}=\text{deg}(i)$ La somme des termes sur une lignes ou une colonne correspond au degré du nœud associé à cette ligne/colonne.
@@ -23,6 +22,7 @@ La matrice d’adjacence $ A$ est de genre $ |N|\times|N|$ :
 Les graphes simples $ G=(N,R)$ et $ G'=(N',R')$ sont isomorphes si : 
 1. Il existe une bijection $ f:N\rightarrow N'$
 2. $ \{i,j\}\in R \Leftrightarrow \{f(i),f(j)\}\in R'$
+
 ***Propriétés/Théorèmes :***
 	2.1 : La relation d'isomorphisme est une relation d'équivalence sur les graphes
 	2.2 : Il est facile de vérifier si $ f$ définit un isomorphisme Il reste difficile de décider si deux graphes sont isomorphes
