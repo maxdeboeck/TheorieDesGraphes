@@ -8,3 +8,6 @@ title = "Théorie des Graphes"
 
 [preprocessor.katex]
 after = ["links"]
+
+[output.html]
+default-theme = "light"
