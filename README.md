@@ -83,8 +83,8 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTRIBUTING -->
 ## Contribuer
 
-Toutes les contributions sont les bienvenues, qu'elles soient petites ou grandes.***Il ne faut pas s'y connaître en Rust/mdBook/développement web pour contribuer, il suffit d'avoir un éditeur markdown/Latex (je recommande [Obsidian](https://obsidian.md/) avec l'extension [Latex Suite](https://github.com/artisticat1/obsidian-latex-suite)) et de savoir utiliser git.***
+Toutes les contributions sont les bienvenues, qu'elles soient petites ou grandes. ***Il ne faut pas s'y connaître en Rust/mdBook/développement web pour contribuer, il suffit d'avoir un éditeur markdown/Latex (je recommande [Obsidian](https://obsidian.md/) avec l'extension [Latex Suite](https://github.com/artisticat1/obsidian-latex-suite)) et de savoir utiliser git.***
 
-Essayer de suivre les conventions de nommage et de style de code utilisées dans le projet. Si vous avez des questions, n'hésitez pas à ouvrir une issue pour demander.
+Essayer de suivre la mise en page utilisée dans le projet. Si vous avez des questions, n'hésitez pas à ouvrir une issue pour demander.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
