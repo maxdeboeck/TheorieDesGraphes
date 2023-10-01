@@ -9,3 +9,7 @@ Donc si vous trouvez qu'un certain sujet devrait être inclus dans le libre, n'h
 Pour le moment le livre contien deux grand chapitres :
 1. [Bases et définitions](bases/root.md) : qui a comme but de donner les bases de la théorie des graphes et de définir les concepts de base de façon rigoureuse.
 2. [Algorithmes](algorithmes/root.md) : qui a comme but de présenter les algorithmes les plus importants de la théorie des graphes des les expliquer, proposer une implémentation et de prouver qu'ils sont corrects.
+
+
+## Conseil(s) :
+1. ***Si vous cherchez un terme spécifique utilisez la petite loupe en haut à gauche pour faire une recherche rapide***
