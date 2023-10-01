@@ -6,18 +6,15 @@ In :
 $G=(N,R)$ un graphe orienté pondéré ***sans cycle négatif*** et $s \in N$
 
 Out : 
-Le coût du + court chemin de $s$ vers tout $n \in N$ 
+Une liste de taille $|N|$ contenant les distances minimales séparant $s$ de tous les autres nœuds. 
 
 Init : 
-$d_{0}(s):=0$ et $d_{0}(u):=\infty \,\,\, \forall u \in N -\{s\}$. On créé une liste de distances séparant $s$ des autres nœuds. On initialise les distance à une valeur de $\infty$ pour que les comparaisons qui suivent puissent rapidement remplacer cette valeur et la distance séparant $s$ de $s$ est $0$.
+$d(s):=0$ et $d(u):=\infty \,\,\, \forall u \in N -\{s\}$. On créé une liste de distances séparant $s$ des autres nœuds. On initialise les distance à une valeur de $\infty$ pour que les comparaisons qui suivent puissent rapidement remplacer cette valeur et la distance séparant $s$ de $s$ est $0$.
 
 Loop :
 Répète $|N|-1$ fois :
-	$\forall(u,v)\in R:$
-		si $d_{i-1}(u)+c((u,v))\lt d_{i-1}(v)$ alors $d_{i}(v):=d_{i-1}(u)+c((u,v))$
-
-Result :
-Une liste de taille $|N|$ contenant les distances minimales séparant $s$ de tous les autres nœuds. 
+- $\forall(u,v)\in R:$
+  - si $d(u)+c((u,v))\lt d(v)$ alors $d(v):=d(u)+c((u,v))$
 
 ---
 
@@ -25,8 +22,8 @@ Une liste de taille $|N|$ contenant les distances minimales séparant $s$ de tou
 
 1. On créé la liste $d$ 
 2. Ensuite on répète $|N|-1$ fois la procédure suivante
-3. Pour chaque arête reliant $u$ à $v$ on regarde si la distance à l'arête $v$ peut être raccourcie en prenant la distance à l'arête $i$ plus le poids de l'arête qui les sépare.
-4. On obtient $d$.
+3. Pour chaque arête reliant $u$ à $v$ on regarde si la distance à l'arête $v$ peut être raccourcie en prenant la distance à l'arête $u$ plus le poids de l'arête qui les sépare.
+4. $d$ contient les valeurs recherchées.
 
 ---
 
