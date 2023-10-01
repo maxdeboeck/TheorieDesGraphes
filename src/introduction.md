@@ -1,6 +1,6 @@
-# Introduction
+# Intoduction
 
-Très illustres et très chevalresques champions, gentilshommes, IA autonomes et autres, bienvenue dans ce modeste livre qui reprend certaines des éléments les plus notoires de ce coin des mathématiques que nous appelons la théorie des graphes. 
+Très Illustres et très chevalresques champions, gentilshommes, IA autonomes et autres, bienvenue dans ce modeste livre qui reprend certaines des éléments les plus notoires de la théorie des graphes. 
 
 Ma motivation principale en créant ce livre était d'avoir un document de reference qui ne fait pas saigner des yeux, accessible de partout et facile d'utilisation pour la partie qui concerne la théorie des graphes du cours LEPL1108 à l'UCLouvain. Il contient également certains ajouts personnels que je trouve pertinents/interessants et qui ne sont pas vus dans le cours. ***Le but final est d'avoir un livre de référence le plus complet possible sur la théorie des graphes.***
 
