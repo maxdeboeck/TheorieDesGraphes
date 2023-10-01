@@ -1,5 +1,11 @@
 # Introduction
 
-Très illustres et très chevalresques champions, gentilshommes, IA autonomes et autres, bienvenue dans ce modeste livre qui reprend certaines des notions les plus notoires de ce coin des mathématiques que nous appelons la théorie des graphes. 
+Très illustres et très chevalresques champions, gentilshommes, IA autonomes et autres, bienvenue dans ce modeste livre qui reprend certaines des éléments les plus notoires de ce coin des mathématiques que nous appelons la théorie des graphes. 
 
-Ce livre a pour but de servir de document de référence pour tous ceux qui en aurait besoin. Il est clair qu'il ne reprends pas et ne reprendra jamais TOUTE la théorie des graphes. Il est donc certain que certaines notions ne soient pas abordées ici. Si vous souhaitez contribuer à ce document, n'hésitez pas à me contacter à l'adresse suivante : 
+Ma motivation principale en créant ce livre était d'avoir un document de reference qui ne fait pas saigner des yeux, accessible de partout et facile d'utilisation pour la partie qui concerne la théorie des graphes du cours LEPL1108 à l'UCLouvain. Il contient également certains ajouts personnels que je trouve pertinents/interessants et qui ne sont pas vus dans le cours. ***Le but final est d'avoir un livre de référence le plus complet possible sur la théorie des graphes.***
+
+Donc si vous trouvez qu'un certain sujet devrait être inclus dans le libre, n'hésitez pas à contribuer au [repositoire github de ce livre](https://github.com/maxdeboeck/TheorieDesGraphes). ***Il ne faut pas s'y connaître en Rust/mdBook/développement web pour contribuer, il suffit d'avoir un éditeur markdown/Latex (je recommande [Obsidian](https://obsidian.md/) avec l'extension [Latex Suite](https://github.com/artisticat1/obsidian-latex-suite)) et de savoir utiliser git.***
+
+Pour le moment le livre contien deux grand chapitres :
+1. [Bases et définitions](bases/root.md) : qui a comme but de donner les bases de la théorie des graphes et de définir les concepts de base de façon rigoureuse.
+2. [Algorithmes](algorithmes/root.md) : qui a comme but de présenter les algorithmes les plus importants de la théorie des graphes des les expliquer, proposer une implémentation et de prouver qu'ils sont corrects.
