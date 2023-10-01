@@ -37,7 +37,7 @@
       </ul>
     </li>
     <li><a href="#utilisation">Usage</a></li>
-    <!-- <li><a href="#todo">Roadmap</a></li> -->
+    <li><a href="#todo">Todo</a></li>
     <li><a href="#contribuer">Contributing</a></li>
   </ol>
 </details>
@@ -68,17 +68,12 @@ Si vous remarquez une erreur, une faute d'orthographe, une formulation maladroit
 Rien de plus simple, il suffit de se rendre sur [le site](https://maxdeboeck.github.io/TheorieDesGraphes/) et de lire le livre. Si vous voulez contribuer, il suffit de suivre les instructions ci-dessous.
 
 
-<!-- Todo
+<!-- Todo -->
 ## Todo
 
-- [x] Completed task
-- [ ] Unfinished task 
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+- [ ] Ajouter les preuves pour Kruskal et Dijkstra
+- [ ] Compléter les sources
+- [ ] Rendre les images compatibles avec les thèmes sombres 
 
 <!-- CONTRIBUTING -->
 ## Contribuer
