@@ -34,7 +34,7 @@ liaison entre deux sommets d'un graphe
 
 # <u>Notions Dérivées :</u>
 
-## Parcours :
+## Parcours/Chaîne :
 Un parcours $P$ de longueur $k$ dans $G$ est une suite alternée $P:=(i_{0}, \alpha_{1}, i_{1}, \alpha_{2}, i_{2}, \dots, \alpha_{k}, i_{k})$ de $k+1$ nœuds et $k$ arêtes de $G$.
 
 ***Propriétés/Théorèmes :***
@@ -42,13 +42,23 @@ Un parcours $P$ de longueur $k$ dans $G$ est une suite alternée $P:=(i_{0}, \al
 
 ---
 
-## Chemin/Chaîne :
+## Piste/Chaîne simple :
+Une piste est un parcours dont les arêtes sont distinctes
+
+---
+
+## Chemin/Chaîne élémentaire (Définition de chemin de LEPL1108)) :
 Un chemin est un parcours ouvert dont tous les nœuds sont distincts.
 
 ---
 
-## Cycle :
+## Cycle/Circuit (Définition d'un cycle plus répandue dans la littérature et plus utile à mon avis) :
 Un cycle est une suite d'arêtes consécutives distinctes (chaine simple) dont les deux sommets extrémités sont identiques.
+
+---
+
+## Cycle (Définition donnée dans LEPL1108) :
+Un parcours dont tous les nœuds et arêtes sont distincts, à l’exception du premier et du dernier nœud.
 
 ---
 
@@ -77,8 +87,21 @@ Un graphe est dit biparti si son ensemble de sommets peut être divisé en deux 
 
 ---
 
+## Parcours/Chaine eulérien(ne) :
+Un parcours qui passe par toutes les arêtes, une seule fois.
+
+***Propriétés/Théorèmes :***
+1. Un graphe connexe a un parcours eulérien si il possède 0 ou 2 arêtes de degré impair.
+
+---
+
+## Cycle/Circuit/Tournée Eulérien(ne) :
+Parcours eulérien qui revient au sommet/nœud de départ (ici on parle de cycle définit comme une chaîne simple/piste fermée).
+
+---
+
 ## Graphe Eulérien :
-Graphe possédant au moins un cycle eulérien.
+Graphe possédant au moins un cycle eulérien (ici on parle de cycle définit comme une chaîne simple/piste fermée).
 
 ***Exemple(s) :***
 1.
@@ -96,18 +119,14 @@ Graphe possédant au moins un cycle eulérien.
   
 ***Propriétés/Théorèmes :***
 1. Un graphe connexe dont les nœuds sont tous de degré pair est un graphe eulérien et inversement.
----
-
-## Cycle/Circuit Eulérien :
-Parcours eulérien qui revient au sommet/nœud de départ
 
 ---
 
-## Parcours/Chemin/Chaine eulérien(ne) :
-Un chemin qui passe par toutes les arêtes, une seule fois.
+## Piste/Parcours/Chaîne Eulérien(ne) :
+Piste qui passe par toutes les arêtes.
 
 ***Propriétés/Théorèmes :***
-1. Un graphe connexe a un parcours eulérien si il possède 0 ou 2 arêtes de degré impair.
+1. Le graphe $G$ sans nœud isolé possède une piste eulérienne si $G$ est sans nœud isolé est connexe et contient soit 0 soit 2 nœuds de degré impair.
 
 ---
 
