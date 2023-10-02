@@ -71,9 +71,9 @@ Rien de plus simple, il suffit de se rendre sur [le site](https://maxdeboeck.git
 <!-- Todo -->
 ## Todo
 
+- [x] Rendre les images compatibles avec les thèmes sombres 
 - [ ] Ajouter les preuves pour Kruskal et Dijkstra
 - [ ] Compléter les sources
-- [ ] Rendre les images compatibles avec les thèmes sombres 
 
 <!-- CONTRIBUTING -->
 ## Contribuer
