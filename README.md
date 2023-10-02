@@ -71,7 +71,7 @@ Rien de plus simple, il suffit de se rendre sur [le site](https://maxdeboeck.git
 <!-- Todo -->
 ## Todo
 
-- [x] Rendre les images compatibles avec les thèmes sombres 
+- [x] Rendre les images compatibles avec les thèmes sombres (Merci [Théo](https://github.com/Kaporos))
 - [ ] Ajouter les preuves pour Kruskal et Dijkstra
 - [ ] Compléter les sources
 
