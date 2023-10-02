@@ -13,7 +13,7 @@ La matrice d’incidence d’un graphe $ G=(n,R)$ est la matrice de genre $ |N|\
 
 ---
 
-## Matrice Adjacente :
+## Matrice d'Adjacence :
 La matrice d’adjacence $ A$ est de genre $ |N|\times|N|$ : 
 - $ a_{i,j}:=$  nombre d’arêtes reliant $ i$ et $ j$ si $ i \neq j$ 
 - $ a_{i,i}:=$ deux fois le nombre de boucles sur $ i$
@@ -27,9 +27,11 @@ La matrice d’adjacence $ A$ est de genre $ |N|\times|N|$ :
 
 
 ***Propriétés/Théorèmes :***
-- 2.1 : $ \sum_{j\in N}a_{i,j}=\sum_{j\in N}a_{j,i}=\text{deg}(i)$ La somme des termes sur une lignes ou une colonne correspond au degré du nœud associé à cette ligne/colonne.
-- 2.2 : $ \sum_{(i,j)\in N^{2}}a_{i,j}=2|R|$ La somme de tous les éléments de la matrice est égal au double du nombre d'arêtes dans le graphe.
-- 2.3 : $ \sum_{i \in N}\text{deg}(i)=2|R|$ La somme des degrés des nœuds d'une graphe est égal au double du nombre d'arêtes dans le graphe.
+- 1. $ \sum_{j\in N}a_{i,j}=\sum_{j\in N}a_{j,i}=\text{deg}(i)$ La somme des termes sur une lignes ou une colonne correspond au degré du nœud associé à cette ligne/colonne.
+- 2. $ \sum_{(i,j)\in N^{2}}a_{i,j}=2|R|$ La somme de tous les éléments de la matrice est égal au double du nombre d'arêtes dans le graphe.
+- 3. $ \sum_{i \in N}\text{deg}(i)=2|R|$ La somme des degrés des nœuds d'une graphe est égal au double du nombre d'arêtes dans le graphe.
+- 4. Si $G$ est un graphe simple, le nombre de parcours de longueur $k$ entre ses nœuds $i$ et $j$ est donné par $(A^{k})_{i,j}$
+
 
 ---
 
