@@ -25,10 +25,10 @@ Un graphe est un triple $G=(N,R,I)$ :
 liaison entre deux sommets d'un graphe
 
 ***Propriétés/Théorèmes :***
-1. Une arrête $\alpha \in R$ est une boucle si $|\{i|(i,\alpha)\in I\mid=1$ :
+1. Une arrête $\alpha \in R$ est une boucle si $|\{i|(i,\alpha)\in I\}\mid=1$ :
   1. $(i,\alpha) \in I$ : Indique que la paire $(i,\alpha)$ est un élément de l'ensemble $I$.
   2. $i|(i,\alpha) \in I$ : Désigne l'ensemble des $i$ tels que $(i,\alpha)$ ce trouve dans l'ensemble des relations d'incidence c'est à dire l'ensemble des connexions arête nœud.
-  3. $|\{i|(i,\alpha)\in I \mid$ Désigne la taille de l'ensemble susmentionné.
+  3. $|\{i|(i,\alpha)\in I \} \mid$ Désigne la taille de l'ensemble susmentionné.
 
 ---
 
