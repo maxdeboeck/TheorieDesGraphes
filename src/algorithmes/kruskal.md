@@ -40,6 +40,7 @@ def kruskal(graph, rPrime):
 ```
 ### Complexité 
 Spatiale : $O(|N|+|V|)$
+
 Temporelle : dépend surtout de l'algorithme de triage mais dans le meilleur des cas : $O(|R|\log|R|)=O(|R|\log|E|)$
 
 ---
