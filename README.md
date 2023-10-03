@@ -72,6 +72,7 @@ Rien de plus simple, il suffit de se rendre sur [le site](https://maxdeboeck.git
 ## Todo
 
 - [x] Rendre les images compatibles avec les thèmes sombres (Merci [Théo](https://github.com/Kaporos))
+- [x] Ajout de caching pour la compilation du libre et le déploiement (10x plus rapide)
 - [ ] Ajouter les preuves pour Kruskal et Dijkstra
 - [ ] Compléter les sources
 
