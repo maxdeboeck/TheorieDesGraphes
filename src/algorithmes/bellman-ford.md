@@ -45,6 +45,7 @@ def bellman_ford(graph, source):
 ```
 ### Complexité 
 Spatiale : $O(|N|)$
+
 Temporelle : $O(|N|\cdot|R|)$
 
 ---

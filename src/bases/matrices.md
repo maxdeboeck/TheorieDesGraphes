@@ -27,10 +27,16 @@ La matrice d’adjacence $ A$ est de genre $ |N|\times|N|$ :
 
 
 ***Propriétés/Théorèmes :***
-- 1. $ \sum_{j\in N}a_{i,j}=\sum_{j\in N}a_{j,i}=\text{deg}(i)$ La somme des termes sur une lignes ou une colonne correspond au degré du nœud associé à cette ligne/colonne.
-- 2. $ \sum_{(i,j)\in N^{2}}a_{i,j}=2|R|$ La somme de tous les éléments de la matrice est égal au double du nombre d'arêtes dans le graphe.
-- 3. $ \sum_{i \in N}\text{deg}(i)=2|R|$ La somme des degrés des nœuds d'une graphe est égal au double du nombre d'arêtes dans le graphe.
-- 4. Si $G$ est un graphe simple, le nombre de parcours de longueur $k$ entre ses nœuds $i$ et $j$ est donné par $(A^{k})_{i,j}$
+1. Soient 2 graphes $G_{1}$ et $G_{2}$ avec comme matrices d'adjacence $A_{1}$ et $A_{2}$. $G_{1}$ et $G_{2}$ sont isomorphes si et seulement si il existe une matrice de permutation $P$ tel que :
+   $$
+PA_{1}P^{-1}=A_{2}
+$$
+     $A_{1}$ et $A_{2}$ sont donc semblables. Dit autrement: si on peut permuter les noms des nœuds de telle sorte que que $G_{1}$ devient $G_{2}$ alors les graphes sont isomorphes et la permutation des noms est équivalent à permuter les lignes et les colonnes de la matrice ce qui correspond à la formule ci-dessus.
+1. $ \sum_{j\in N}a_{i,j}=\sum_{j\in N}a_{j,i}=\text{deg}(i)$ La somme des termes sur une lignes ou une colonne correspond au degré du nœud associé à cette ligne/colonne.
+2. $ \sum_{(i,j)\in N^{2}}a_{i,j}=2|R|$ La somme de tous les éléments de la matrice est égal au double du nombre d'arêtes dans le graphe.
+3. $ \sum_{i \in N}\text{deg}(i)=2|R|$ La somme des degrés des nœuds d'une graphe est égal au double du nombre d'arêtes dans le graphe.
+4. Si $G$ est un graphe simple, le nombre de parcours de longueur $k$ entre ses nœuds $i$ et $j$ est donné par $(A^{k})_{i,j}$
+
 
 
 ---
