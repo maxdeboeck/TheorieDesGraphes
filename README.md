@@ -75,6 +75,7 @@ Rien de plus simple, il suffit de se rendre sur [le site](https://maxdeboeck.git
 - [x] Ajout de caching pour la compilation du libre et le déploiement (10x plus rapide)
 - [ ] Ajouter les preuves pour Kruskal et Dijkstra
 - [ ] Compléter les sources
+- [ ] Ajouter les démonstrations pour les propriétés équivalentes des arbres
 
 <!-- CONTRIBUTING -->
 ## Contribuer
