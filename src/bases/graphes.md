@@ -152,9 +152,7 @@ Les graphes simples $ G=(N,R)$ et $ G'=(N',R')$ sont isomorphes si :
 
 ***Propriétés/Théorèmes :***
 
-	2.1 : La relation d'isomorphisme est une relation d'équivalence sur les graphes
-
-	2.2 : Il est facile de vérifier si $f$ définit un isomorphisme Il reste difficile de décider si deux graphes sont isomorphes
-
+1 : La relation d'isomorphisme est une relation d'équivalence sur les graphes
+2 : Il est facile de vérifier si $f$ définit un isomorphisme Il reste difficile de décider si deux graphes sont isomorphes
 
 ---
